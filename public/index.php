@@ -23,18 +23,9 @@ try {
     $application->registerModules(
         [
             'yonetim' => [
-                'className' => 'YG\Restoran\Yonetim\Module',
-                'path'      =>  APP_PATH . '/modules/yonetim/Module.php'
+                'className' => 'YG\Main\Module',
+                'path'      =>  APP_PATH . '/modules/main/Module.php'
             ],
-            'siparis' => [
-                'className' => 'YG\Restoran\Siparis\Module',
-                'path'      =>  APP_PATH . '/modules/siparis/Module.php'
-            ],
-
-            'isyonetimi' => [
-                'className' => 'YG\IsYonetimi\Module',
-                'path'      =>  APP_PATH . '/modules/isyonetimi/Module.php'
-            ]
         ]
     );
 

@@ -8,7 +8,7 @@ $di->set('view', function () {
 
     $view = new View();
 
-    $view->setViewsDir(APP_PATH . "/modules/example/views/");
+    $view->setViewsDir(APP_PATH . "/modules/main/views/");
     $view->setMainView(APP_PATH . "/views/index");
     $view->setPartialsDir(APP_PATH. "/views/partials/");
 
@@ -34,6 +34,6 @@ $di->set('dispatcher', function () {
     $config = $this->getConfig();
 
     $dispatcher = new Dispatcher();
-    $dispatcher->setDefaultNamespace("YG\Example\Controllers");
+    $dispatcher->setDefaultNamespace("YG\Main\Controllers");
     return $dispatcher;
 });

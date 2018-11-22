@@ -9,9 +9,9 @@ $loader->registerNamespaces([
     'YG\Models'                => APP_PATH . '/models',
     'YG\Library'               => APP_PATH . '/library',
     
-    'YG\Example\Models'        => APP_PATH . '/modules/example/models',
-    'YG\Example\Controllers'   => APP_PATH . '/modules/example/controllers',
-    'YG\Example\Forms'         => APP_PATH . '/modules/example/forms',
+    'YG\Main\Models'        => APP_PATH . '/modules/main/models',
+    'YG\Main\Controllers'   => APP_PATH . '/modules/main/controllers',
+    'YG\Main\Forms'         => APP_PATH . '/modules/main/forms',
 ]);
 
 $loader->register();

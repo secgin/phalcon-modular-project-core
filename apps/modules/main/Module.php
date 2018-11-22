@@ -1,5 +1,5 @@
 <?php
-namespace YG\Restoran\Yonetim;
+namespace YG\Example\Yonetim;
 
 use Phalcon\Mvc\ModuleDefinitionInterface;
 
